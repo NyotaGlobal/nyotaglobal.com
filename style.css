@@ -1,41 +1,68 @@
+
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background: #f6f6f6;
-  color: #333;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #222;
+    background-color: #f9f9f9;
 }
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
 header {
-  background: #000;
-  color: #fff;
-  padding: 20px;
-  text-align: center;
+    background: #000;
+    color: #fff;
+    padding: 20px 0;
 }
-header nav a {
-  color: #fff;
-  margin: 0 10px;
-  text-decoration: none;
+
+header h1 {
+    margin: 0;
 }
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
 .hero {
-  background: #0e1117;
-  color: #fff;
-  padding: 60px 20px;
-  text-align: center;
+    background: #1a1a1a;
+    color: #fff;
+    padding: 60px 0;
+    text-align: center;
 }
+
 .cta-button {
-  background: #00bfa5;
-  color: white;
-  padding: 10px 20px;
-  text-decoration: none;
-  display: inline-block;
-  margin-top: 20px;
+    display: inline-block;
+    padding: 12px 24px;
+    margin-top: 20px;
+    background: #00b386;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
 }
-section {
-  padding: 40px 20px;
+
+.about, .services, .contact {
+    padding: 40px 0;
 }
+
 footer {
-  background: #222;
-  color: #ccc;
-  text-align: center;
-  padding: 20px;
+    background: #222;
+    color: #aaa;
+    text-align: center;
+    padding: 20px 0;
 }
